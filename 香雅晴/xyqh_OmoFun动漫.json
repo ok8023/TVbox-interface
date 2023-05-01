@@ -1,0 +1,97 @@
+{
+    "title": "quqidm",
+    "author": "tx",
+    "Headers":"MOBILE_UA",
+    "PicNeedProxy":"0",
+    "homeContent":"1",
+    "firstpage": "1",
+    "class_url": "https://www.omofun.tv/vod/show/id/{cateId}/page/{catePg}.html",
+    "class_name": "日本动漫&剧场版",
+    "class_value": "20&23",
+    "filterdata": {},
+    
+    "cat_mode": "1",
+    
+    "cat_arr_rule": ".module-items&&a",
+    
+    "cat_title": "a&&title",
+    
+    "cat_url": "a&&href",
+    
+    "cat_pic": ".lazyload&&data-original",
+    
+    "cat_subtitle":".module-item-note&&Text",
+    
+    "cat_prefix": "https://www.omofun.tv",
+    
+    "cat_suffix": "",
+    
+    "SHeaders":"MOBILE_UA",
+    
+    "search_url": "https://www.omofun.tv/index.php/ajax/suggest?mid=1&wd={wd}",
+    
+    "sea_PtBody":"",
+ 
+    "search_mode": "0",
+ 
+    "sea_arr_rule": "list",
+    
+    "sea_is_jsoup":"1", 
+    
+    "sea_pic": "pic",
+ 
+    "sea_title": "name",
+ 
+    "sea_url": "id",
+    
+    "sea_subtitle":".pic-text&&Text",
+    
+    "search_prefix": "https://www.omofun.tv/vod/detail/id/",
+    
+    "search_suffix": "",
+    
+    "force_play": "0",
+    
+    "play_prefix": "https://live.52sf.ga/huya/",
+    
+    "play_suffix": "#isVideo=true#",
+    
+    "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
+            
+    "proj_is_jsoup":"1",
+
+    "proj_cate": "",
+
+    "proj_year": "",
+
+    "proj_area": ".module-info-items&&.module-info-item,3&&Text!地区",
+
+    "proj_actor": ".module-info-items&&.module-info-item,2&&Text!主演：",
+
+    "proj_plot": ".module-info-introduction-content&&p&&Text",        
+                                
+    "tab_arr_rule": ".module-tab-items-box&&.module-tab-item.tab-item",
+ 
+    "tab_title": "span&&Text",
+    
+    "list_arr_rule": "body&&.module-play-list-content",
+    
+    "epi_arr_rule": "a",
+    
+    "epi_title": "a&&span&&Text",
+    
+    "epi_url": "a&&href",
+    
+    "epi_reverse": "0",
+    
+    "epiurl_prefix": "https://www.omofun.tv",
+    "epiurl_suffix": "",
+    
+    
+ 
+    //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
+    "Anal_MacPlayer":"0",
+    "ManualSniffer":"0",
+    "VideoFormat":".mp4#.m3u8#.flv",
+    "VideoFilter":".html#=http"
+}
